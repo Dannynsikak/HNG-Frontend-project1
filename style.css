@@ -1,0 +1,127 @@
+/* 
+.playfair-display-<uniquifier> {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+:root {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  background-color: #eef7ff;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1.2rem;
+  /* width: 80%; */
+  margin-bottom: 1em;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  display: inline-block;
+  /* columns: black; */
+  vertical-align: middle;
+  color: black;
+}
+.svg_icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle; /* Aligns the SVG icon with the text */
+  fill: blue;
+
+  /* display: inline-block; */
+  /* color: blue; */
+}
+
+.goals {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1750px;
+}
+
+.goal {
+  flex: 1 1 40%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  /* Removed individual section styling for consistency */
+}
+
+/* .h1_element {
+  background-color: #fff;
+} */
+
+p,
+ul {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+footer {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.main_footer {
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+.footer {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.p_wrapper {
+  flex: 1 1 40%;
+  /* border: 2px solid gold; */
+}
+
+h2 {
+  line-height: 1;
+}
+
+.box {
+  width: 375px;
+  height: 500px;
+  /* text-align: center; */
+  display: contents;
+  /* background-color: aqua; */
+}
+
+.image {
+  max-width: 100%;
+
+  /* min-height: auto; */
+}
+
+@media (min-width: 1000px) {
+  .goals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 auto; */
+    gap: 5px;
+  }
+}
