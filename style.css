@@ -42,6 +42,9 @@
 .social-links {
   font-weight: 500;
   list-style: none; /* Removes the bullet points */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 #utc-time {
   font-weight: 500;
