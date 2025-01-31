@@ -28,7 +28,7 @@ Google Fonts (Playfair Display)
 
 Clone the repository:
 
-    git clone https://github.com/Dannynsikak/HNG-Frontend-project1.git
+    git clone https://github.com/Dannynsikak/HNG-Frontend-project1
 
 Navigate to the project directory:
 
